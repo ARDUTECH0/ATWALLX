@@ -1,6 +1,8 @@
-# 🔌 ATWALLX
+<h1 align="center">🔌 ATWALLX</h1>
 
-Firmware for a professional **Smart Relay System** based on ESP8266/ESP32 that supports:
+A professional, feature-rich firmware for smart relay systems built on **ESP8266 / ESP32 / ESP8285**, designed to deliver seamless control, automation, and real-time monitoring for smart home and industrial applications.
+
+
 
 - ✅ MQTT Control (JSON-based)
 - 🕒 Weekly Schedule System
@@ -72,4 +74,3 @@ We're happy to help with:
 - Custom firmware
 - Commercial deployments
 
----
