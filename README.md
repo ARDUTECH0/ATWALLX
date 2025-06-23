@@ -27,7 +27,7 @@ A professional, feature-rich firmware for smart relay systems built on **ESP8266
 | Relay Index | Relay Pin | Button Pin |
 |-------------|-----------|------------|
 | 0           | D0        | D2         |
-| 1           | D1        | D3         |
+| 1           | D1        | D4         |
 
 > You can press each button to toggle the corresponding relay manually. Button logic includes debounce handling.
 
@@ -49,6 +49,24 @@ A professional, feature-rich firmware for smart relay systems built on **ESP8266
 - Connect your board via USB
 - Select COM Port and `.bin` file
 - Click **Flash**
+---
+
+## 🔄 Flash Firmware via Web Installer
+
+You can easily upload the firmware to your ESP8266 / ESP32 device using a web browser — no need for extra tools!
+
+### 🌐 Online Flasher:
+> [https://esp.huhn.me](https://esp.huhn.me)
+
+### 🧭 How to Use:
+
+1. Visit **[esp.huhn.me](https://esp.huhn.me)** using **Google Chrome** or **Microsoft Edge**.
+2. Connect your ESP device via **USB** to your computer.
+3. Click "**Connect**" and select your device's COM port.
+4. Choose the firmware `.bin` file from your computer.
+5. Flash and wait until the process is complete.
+
+> ⚠️ **Note:** This only works over USB. For OTA updates, use the mobile app or MQTT command.
 
 ### 2. Using `esptool.py` (CLI)
 ```bash
@@ -67,15 +85,13 @@ To add your Smart Relay device using the mobile app, follow these steps **carefu
 1. **Connect your phone** to the Wi-Fi network created by the device:  
    > 📶 SSID format: `ATWALLX_XXXXXX`
 
-2. Open the **ATWALLX Home App**.
+2. Open the **ATWALLX**.
 
 3. Tap the ➕ icon at the top to **add a new device**.
 
-4. The app will search and detect the device automatically via local UDP broadcast.
+4. Once detected, the app will show a screen to enter your **home Wi-Fi credentials** (SSID & Password).
 
-5. Once detected, the app will show a screen to enter your **home Wi-Fi credentials** (SSID & Password).
-
-6. Tap **Save** and wait while the device reboots and connects to your router.
+5. Tap **Save** and wait while the device reboots and connects to your router.
 
 > ⚠️ **Important:** You must be connected to the device’s Wi-Fi (ATWALLX_XXXXXX) during this step, or the app won’t detect the device.
 ---
