@@ -4,7 +4,6 @@ A professional, feature-rich firmware for smart relay systems built on **ESP8266
 
 
 
-- ✅ MQTT Control (JSON-based)
 - 🕒 Weekly Schedule System
 - ⏳ Delayed ON/OFF actions
 - 🧲 Sensor-triggered relay switching
@@ -18,7 +17,7 @@ A professional, feature-rich firmware for smart relay systems built on **ESP8266
 | 📱 Android | [Download](https://github.com/ARDUTECH0/smart-home/raw/refs/heads/main/app-release.apk) |
 
 
-> 🔑 Requires device to be connected to Wi-Fi and MQTT broker correctly.
+> 🔑 Requires device to be connected to Wi-Fi .
 
 ---
 
@@ -66,7 +65,7 @@ You can easily upload the firmware to your ESP8266 / ESP32 device using a web br
 4. Choose the firmware `.bin` file from your computer.
 5. Flash and wait until the process is complete.
 
-> ⚠️ **Note:** This only works over USB. For OTA updates, use the mobile app or MQTT command.
+> ⚠️ **Note:** This only works over USB
 
 ### 2. Using `esptool.py` (CLI)
 ```bash
