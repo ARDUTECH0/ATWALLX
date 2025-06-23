@@ -60,6 +60,25 @@ esptool.py --chip esp32 --port COM3 write_flash -z 0x1000 firmware_esp32.bin
 ```
 ---
 
+## 📲 Adding the Device via the Mobile App
+
+To add your Smart Relay device using the mobile app, follow these steps **carefully**:
+
+1. **Connect your phone** to the Wi-Fi network created by the device:  
+   > 📶 SSID format: `ATWALLX_XXXXXX`
+
+2. Open the **ATWALLX Home App**.
+
+3. Tap the ➕ icon at the top to **add a new device**.
+
+4. The app will search and detect the device automatically via local UDP broadcast.
+
+5. Once detected, the app will show a screen to enter your **home Wi-Fi credentials** (SSID & Password).
+
+6. Tap **Save** and wait while the device reboots and connects to your router.
+
+> ⚠️ **Important:** You must be connected to the device’s Wi-Fi (ATWALLX_XXXXXX) during this step, or the app won’t detect the device.
+---
 ## 📞 Contact & Support
 
 Need help or have a custom integration request?
