@@ -1,4 +1,4 @@
-# 🔌 Smart Relay Scheduler Firmware
+# 🔌 ATWALLX
 
 Firmware for a professional **Smart Relay System** based on ESP8266/ESP32 that supports:
 
