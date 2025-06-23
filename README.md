@@ -7,8 +7,16 @@ Firmware for a professional **Smart Relay System** based on ESP8266/ESP32 that s
 - ⏳ Delayed ON/OFF actions
 - 🧲 Sensor-triggered relay switching
 - 🧠 EEPROM-based state saving
-- 🌡️ DHT22 temperature and humidity monitoring
 - 📶 OTA (Over-the-Air) Updates
+----
+### 📥 Download the App
+
+| Platform | Link |
+|----------|------|
+| 📱 Android | [Download from Play Store](https://play.google.com/store/apps/details?id=com.yourcompany.smarthome) |
+
+
+> 🔑 Requires device to be connected to Wi-Fi and MQTT broker correctly.
 
 ---
 
@@ -47,3 +55,21 @@ esptool.py --port COM3 write_flash 0x0 firmware_esp8266.bin
 
 # ESP32
 esptool.py --chip esp32 --port COM3 write_flash -z 0x1000 firmware_esp32.bin
+```
+---
+
+## 📞 Contact & Support
+
+Need help or have a custom integration request?
+
+Feel free to contact us:
+
+- 💬 WhatsApp: [+201096448029](https://wa.me/201096448029)
+
+We're happy to help with:
+- Integration support
+- Feature requests
+- Custom firmware
+- Commercial deployments
+
+---
