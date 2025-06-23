@@ -38,7 +38,7 @@ A professional, feature-rich firmware for smart relay systems built on **ESP8266
 
 | Platform | Firmware Link |
 |----------|----------------|
-| ESP8266  | [Download ESP8266 Firmware](https://github.com/YourUsername/smart-relay-scheduler/releases/download/v1.0.4/firmware_esp8266.bin) |
+| ESP8266  | [Download ESP8266 Firmware](https://github.com/ARDUTECH0/smart-home/raw/refs/heads/main/Firmware_1.4V.bin) |
 
 ---
 
