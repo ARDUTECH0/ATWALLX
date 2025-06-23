@@ -13,7 +13,7 @@ Firmware for a professional **Smart Relay System** based on ESP8266/ESP32 that s
 
 | Platform | Link |
 |----------|------|
-| 📱 Android | [Download from Play Store](https://play.google.com/store/apps/details?id=com.yourcompany.smarthome) |
+| 📱 Android | [Download](https://github.com/ARDUTECH0/smart-home/raw/refs/heads/main/app-release.apk) |
 
 
 > 🔑 Requires device to be connected to Wi-Fi and MQTT broker correctly.
